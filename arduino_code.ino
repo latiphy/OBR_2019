@@ -166,37 +166,13 @@ void Sensor()
   }
 
 //                                     --- THREE sensors cases ---  
-//  else if (Sensor_Value == "11100")
-//  {
-//    Left_turn();
-//  }
  
   else if (Sensor_Value == "11010")
   {
     Left_Turn(255, 255);
     DE = 1;
   }
-  
-//  else if (Sensor_Value == "11001")
-//   {
-//  Forward();
-//  }
-  
-//  else if (Sensor_Value == "10110")
-//  {
-//  Forward();
-//  }
-  
-//  else if (Sensor_Value == "10101")
-//  {
-//  Forward();
-//  }
-  
-//  else if (Sensor_Value == "10011")
-//  {
-//  Forward();
-//  }
-  
+
   else if (Sensor_Value == "01110")
   {
     Forward(255, 255);
@@ -220,16 +196,6 @@ void Sensor()
 
 //                                     --- FOUR sensors cases ---  
   
-//  else if (Sensor_Value == "11110")
-//  {
-//    Forward();
-//  }
-  
-//  else if (Sensor_Value == "11101")
-//  {
-//    Forward();
-//  }
-  
   else if (Sensor_Value == "11011")
   {
     if (DE == 1)
@@ -242,16 +208,6 @@ void Sensor()
     }
   }
   
-//  else if (Sensor_Value == "10111")
-//  {
-//    Forward();
-//  }
-
-//  else if (Sensor_Value == "01111")
-//  {
-//    Forward();
-//  }
-
 //                                     --- FIVE sensors case ---  
   
   else if (Sensor_Value == "11111")
