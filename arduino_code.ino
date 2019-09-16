@@ -1,7 +1,3 @@
-//  ---------------------------------------------  //
-// Official Code of the team "Relampago Marquinhos"//
-//                 Made by Latiphy                 //
-//  ---------------------------------------------  //
 #include <Wire.h>  // i2c RPI and Arduino
 #include <Servo.h> // Cam 
 
