@@ -22,10 +22,10 @@ while (True):
     cv2.rectangle(frame,(ret[0],ret[1]),(int(ret[0]+ret[2]), int(ret[1] + ret[3])), (0, 0, 255), 3)     #Rectangle.
     cv2.circle(frame, (ret[0]+ret[2]/2, ret[1]+ret[3]/2), 5, (255, 0, 0), -1)       #Rectangle center
 
-    cv2.imshow('IMAGEM',frame)
-    cv2.imshow('MASCARA',imagem_mask)
-    cv2.imshow('MORFOLOGICA',opening)
-    cv2.imshow('PARTES VERDE', output)
+    cv2.imshow('IMAGE',frame)
+    cv2.imshow('MASK',imagem_mask)
+    cv2.imshow('MORFOLOGIC',opening)
+    cv2.imshow('GREEN REGION', output)
  
     if(cv2.waitKey(1) == 27):
         break
